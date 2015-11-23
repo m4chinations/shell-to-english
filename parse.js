@@ -15,6 +15,7 @@ module.exports = function (shell_string) {
                     });
                     output = cmd(ast, args);
                 } catch (e) {
+                    console.log(e);
                     console.log("parser for command not found");
                 }
             }
