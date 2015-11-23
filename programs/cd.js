@@ -1,7 +1,7 @@
 var m = require('mustache');
 var directory = require('./essentials/directory');
 
-var template = "change the current working directory to {{dir}}{{#args}}, {{.}}{{/args}}";
+var template = "change the current working directory to {{&dir}}{{#args}}, {{.}}{{/args}}";
 m.parse(template);
 
 module.exports = function(ast, args) {  

@@ -2,7 +2,7 @@ var m = require('mustache');
 var directory = require('./essentials/directory');
 var clean = require('./essentials/clean');
 
-var template = "list {{hidden}} files {{args}} in {{dir}}";
+var template = "list {{hidden}} files {{args}} in {{&dir}}";
 m.parse(template);
 
 module.exports = function(ast, args) {  
