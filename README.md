@@ -15,3 +15,6 @@ see [cd.js](https://github.com/tennysonholloway/shell-to-english/blob/master/pro
 
 ## tests
 `npm test` or `mocha`
+
+## things will go wrong
+things will go wrong - please file an issue with the full shell string that messed up the program. better yet, dive in and make a PR
