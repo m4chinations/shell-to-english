@@ -1,0 +1,14 @@
+{
+  "name": "clihelper",
+  "version": "1.0.0",
+  "description": "live shell->english translations in ur (z|ba)sh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tennyson Holloway",
+  "license": "MIT",
+  "dependencies": {
+    "shell-parse": "0.0.2",
+  }
+}
