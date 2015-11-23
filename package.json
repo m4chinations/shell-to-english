@@ -1,5 +1,5 @@
 {
-  "name": "shell2english",
+  "name": "shell-to-english",
   "version": "0.0.1",
   "description": "live shell->english translations in ur (z|ba)sh",
   "main": "parse.js",
