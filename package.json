@@ -2,7 +2,7 @@
   "name": "shell2english",
   "version": "0.0.1",
   "description": "live shell->english translations in ur (z|ba)sh",
-  "main": "index.js",
+  "main": "parse.js",
   "scripts": {
     "test": "mocha"
   },
