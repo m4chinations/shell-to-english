@@ -4,7 +4,7 @@ converts shell to plain english
 ## examples
 ```javascript
 require('shell-to-english')('ls -art')
-//list all files, sorted oldest first by modification time in the parent directory
+//list all files, sorted oldest first by modification time in the current directory
 ```
 
 ## how?
